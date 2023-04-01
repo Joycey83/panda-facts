@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Panda Facts</h1>
+        <Navbar />
       </header>
     </div>
   );
