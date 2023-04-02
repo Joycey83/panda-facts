@@ -145,7 +145,8 @@ Hero
 
 .hero__btn:hover {
   background: transparent;
-  color: var(--main-color-4);
+  color: var(--main-color-2);
   border-color: var(--main-color-4);
   border-radius: var(--radius);
+  transition: var(--transition);
 }
