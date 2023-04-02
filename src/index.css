@@ -108,10 +108,44 @@ Hero
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(68, 98, 90, 0.7), rgba(0, 0, 0, 0.6)),
     url("./images/hero-image.jpg") center/cover no-repeat;
 }
 
 .hero__banner {
   text-align: center;
+  color: var(--main-color-4);
+  padding: 0 2rem;
+}
+
+.hero__banner h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.hero__banner p {
+  font-size: 2rem;
+  letter-spacing: var(--spacing);
+}
+
+.hero__btn {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--main-color-2);
+  color: var(--main-color-4);
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.hero__btn:hover {
+  background: transparent;
+  color: var(--main-color-4);
+  border-color: var(--main-color-4);
+  border-radius: var(--radius);
 }
