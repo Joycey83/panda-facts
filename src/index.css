@@ -9,10 +9,9 @@ Variables
   --main-color-1: #3b7a57;
   --main-color-2: #7bb661;
   --main-color-3: #3cb371;
-  --main-color-4: #fff;
-  /* Heading colors */
-  --heading-color-1: #93c572;
-  --heading-color-2: ;
+  --main-color-4: #355e3b;
+  --main-color-5: #fff;
+  --capitalize: uppercase;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -37,15 +36,15 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  margin-top: 100px;
-  height: 1500px;
+  /* margin-top: 100px;
+  height: 1500px; */
 }
 
 h2 {
   font-size: 2.5rem;
 }
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.85rem;
 }
 h4 {
   font-size: 1rem;
@@ -54,7 +53,7 @@ h4 {
 h2,
 h3,
 h4 {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 ul {
@@ -109,10 +108,41 @@ a {
   border-bottom: 0.35rem solid var(--main-color-3);
 }
 /* 
+=============
+Global Classes
+=============
+*/
+/* Section */
+.section {
+  padding: 5rem 0;
+  scroll-margin-top: 100px;
+  height: 1500px;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.section__heading h2 {
+  text-align: center;
+  text-transform: var(--capitalize);
+  letter-spacing: var(--spacing);
+}
+
+.section__heading span {
+  color: var(--main-color-4);
+  font-weight: 500;
+  letter-spacing: var(--spacing);
+  text-transform: var(--capitalize);
+}
+
+/*  
 ========
 Hero
 ========
- */
+*/
 
 /* .scroll__container {
   padding: 18px;
@@ -130,7 +160,7 @@ Hero
 
 .hero__banner {
   text-align: center;
-  color: var(--main-color-4);
+  color: var(--main-color-5);
   padding: 0 2rem;
 }
 
@@ -153,7 +183,7 @@ Hero
   margin-top: 2rem;
   padding: 1rem;
   background: var(--main-color-2);
-  color: var(--main-color-4);
+  color: var(--main-color-5);
   letter-spacing: var(--spacing);
   text-transform: uppercase;
   border: 2px solid transparent;
@@ -162,7 +192,7 @@ Hero
 .hero__btn:hover {
   background: transparent;
   color: var(--main-color-2);
-  border-color: var(--main-color-4);
+  border-color: var(--main-color-5);
   border-radius: var(--radius);
   transition: var(--transition);
 }
@@ -171,3 +201,24 @@ Hero
 About
 =========
  */
+.about-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.about__photo {
+  display: block;
+  width: 100%;
+}
+
+.about__img,
+.about__info {
+  margin-top: 2rem;
+}
+
+.about__subheading {
+  font-weight: 600;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
