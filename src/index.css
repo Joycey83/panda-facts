@@ -6,9 +6,10 @@ Variables
 
 :root {
   /* Main colors */
-  --main-color-1: #2e8b57;
-  --main-color-2: #006400;
-  --main-color-3: #fff;
+  --main-color-1: #3b7a57;
+  --main-color-2: #7bb661;
+  --main-color-3: #3cb371;
+  --main-color-4: #fff;
   /* Heading colors */
   --heading-color-1: #93c572;
   --heading-color-2: ;
@@ -46,11 +47,42 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  color: var(--heading-color-1);
-}
-
 /* ==========
    Navbar
    ==========
  */
+.navbar__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color-1);
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.navbar__logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.35rem;
+}
+
+.navbar__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: black;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: var(--main-color-4);
+  border-bottom: 0.35rem solid var(--main-color-3);
+}
