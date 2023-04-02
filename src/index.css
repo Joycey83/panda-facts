@@ -37,6 +37,8 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+  height: 1500px;
 }
 
 ul {
@@ -58,6 +60,7 @@ a {
   background-color: var(--main-color-1);
   width: 100%;
   padding: 1.5rem;
+  overflow: hidden;
 }
 
 .navbar__logo {
@@ -70,6 +73,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
 }
 
 .nav-links {
@@ -85,4 +91,27 @@ a {
 .nav-link:hover {
   color: var(--main-color-4);
   border-bottom: 0.35rem solid var(--main-color-3);
+}
+/* 
+========
+Hero
+========
+ */
+
+/* .scroll__container {
+  padding: 18px;
+  margin-top: 100px;
+  height: 1500px;
+} */
+.hero__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/hero-image.jpg") center/cover no-repeat;
+}
+
+.hero__banner {
+  text-align: center;
 }

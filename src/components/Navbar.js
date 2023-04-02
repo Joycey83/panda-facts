@@ -1,15 +1,10 @@
+import logo from "../images/panda-logo.png";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar__container">
         <div className="navbar__center">
-          <img
-            src="https://cdn.dribbble.com/users/1642260/screenshots/9165901/panda1_4x.png"
-            width="50"
-            height="50"
-            className="navbar__logo"
-            alt="Pandas"
-          />
+          <img src={logo} className="navbar__logo" alt="Panda logo" />
           <ul className="nav-links">
             <li>
               <a href="#" className="nav-link">
