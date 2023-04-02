@@ -5,7 +5,12 @@ const Hero = () => {
         <div className="hero__banner ">
           <h1>Giant Panda</h1>
           <p className="hero-para">Chinese national treasure</p>
-          <a href="#tours" className="hero__btn">
+          <a
+            href="https://www.worldwildlife.org/species/giant-panda"
+            target="_blank"
+            rel="noreferrer"
+            className="hero__btn"
+          >
             learn more
           </a>
         </div>
