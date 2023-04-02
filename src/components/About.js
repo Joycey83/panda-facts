@@ -2,7 +2,11 @@ const About = () => {
   return (
     <>
       <section>
-        <h1>ABOUT</h1>
+        <div className="section__heading">
+          <h2>
+            About <span>Pandas</span>
+          </h2>
+        </div>
       </section>
     </>
   );
