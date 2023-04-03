@@ -114,9 +114,9 @@ Global Classes
 */
 /* Section */
 .section {
-  padding: 5rem 0;
+  padding: 5rem 3.125rem;
   scroll-margin-top: 100px;
-  height: 1500px;
+  /* height: 1500px; */
 }
 
 .section-center {
@@ -221,4 +221,39 @@ About
   font-weight: 600;
   letter-spacing: var(--spacing);
   text-transform: capitalize;
+}
+
+/* 
+===========
+Panda Facts
+===========
+ */
+.fact__container {
+  background-color: #7bb661;
+}
+.fact__card {
+  margin: 2rem 1rem;
+  width: 20rem;
+  background: #3b7a57;
+}
+.fact__card--img {
+  display: block;
+  width: 100%;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
