@@ -1,3 +1,4 @@
+import Heading from "./Heading";
 const About = () => {
   return (
     <>
