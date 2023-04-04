@@ -5,6 +5,7 @@ const Facts = () => {
     <>
       <section className="section fact__container" id="pandaFacts">
         <Heading mainHeading="10 facts about" spanHeading="Giant Panda" />
+
         <div className="grid-container">
           <div className="fact__card section-center ">
             <img

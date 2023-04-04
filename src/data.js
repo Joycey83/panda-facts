@@ -7,18 +7,18 @@ export const pageLinks = [
 export const socialLinks = [
   {
     id: 1,
-    href: "https://www.twitter.com",
-    icon: "fab fa-facebook",
+    href: "https://github.com/Joycey83",
+    icon: "fa-brands fa-github",
   },
   {
     id: 2,
-    href: "https://www.twitter.com",
-    icon: "fab fa-twitter",
+    href: "https://www.instagram.com/",
+    icon: "fa-brands fa-instagram",
   },
   {
     id: 3,
     href: "https://www.twitter.com",
-    icon: "fab fa-squarespace",
+    icon: "fa-brands fa-twitter",
   },
 ];
 
