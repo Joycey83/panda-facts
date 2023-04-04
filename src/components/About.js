@@ -3,11 +3,7 @@ const About = () => {
   return (
     <>
       <section className="section" id="about">
-        <div className="section__heading">
-          <h2>
-            About the <span> Giant Panda</span>
-          </h2>
-        </div>
+        <Heading mainHeading="About the" spanHeading="Giant Panda" />
         <div className="section-center about-center">
           <div className="about__img">
             <img
