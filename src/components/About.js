@@ -4,6 +4,7 @@ const About = () => {
     <>
       <section className="section" id="about">
         <Heading mainHeading="About the" spanHeading="Giant Panda" />
+
         <div className="section-center about-center">
           <div className="about__img">
             <img

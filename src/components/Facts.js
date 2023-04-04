@@ -1,12 +1,10 @@
+import Heading from "./Heading";
+
 const Facts = () => {
   return (
     <>
       <section className="section fact__container" id="pandaFacts">
-        <div className="section__heading">
-          <h2>
-            10 fun facts about<span> Giant Panda</span>
-          </h2>
-        </div>
+        <Heading />
         <div className="grid-container">
           <div className="fact__card section-center ">
             <img
