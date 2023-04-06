@@ -1,5 +1,11 @@
 import image1 from "./images/image-1.jpg";
 import image2 from "./images/image-2.jpeg";
+import image3 from "./images/image-3.jpg";
+import image4 from "./images/image-4.jpeg";
+import image5 from "./images/image-5.jpg";
+import image6 from "./images/image-6.jpg";
+import image7 from "./images/image-7.jpg";
+
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
   { id: 2, href: "#pandaFacts", text: "services" },
@@ -33,37 +39,37 @@ export const pandaFacts = [
   },
   {
     id: 2,
-    img: "",
+    img: image2,
     title: "Two",
     text: "A panda mother is 900 times bigger than her new born cub, which weighs less than 5 oz. In comparison, an 8-pound human baby would have a mother that weighed 7,200 pounds.",
   },
   {
     id: 3,
-    img: "",
+    img: image3,
     title: "Three",
     text: "A giant panda’s face is cute, but it is not chubby. It gets its shape from massive cheek muscles. In fact, a giant panda’s jaw and cheek muscles are so powerful that a panda can easily chew an aluminum dish into tiny pieces. They can also easily bite through a thick bamboo stalk. Humans have trouble cutting the same stalk with an axe.",
   },
   {
     id: 4,
-    img: "",
+    img: image4,
     title: "Four",
     text: "Female pandas ovulate only once a year. They are fertile only two or three days of the year.",
   },
   {
     id: 5,
-    img: "",
+    img: image5,
     title: "Five",
     text: "Although 99% of their diet is bamboo, a panda’s digestive system is designed for meat. In fact, pandas absorb only 20%-30 % of bamboo nutrients. Other plant eaters such as deer absorb around 80%. This means the panda has to eat most of the time it is awake to get enough nutrients to survive",
   },
   {
     id: 6,
-    img: "",
+    img: image6,
     title: "Six",
     text: "It takes about five years for a female cub to become an adult and up to seven years for a male cub.",
   },
   {
     id: 7,
-    img: "",
+    img: image7,
     title: "Seven",
     text: "Although a giant panda’s fur looks silky and soft, it is quite thick and wiry. The hair of an adult giant panda can grow up to 4 inches (10 cm) long.",
   },
