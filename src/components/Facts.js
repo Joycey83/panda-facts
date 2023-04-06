@@ -12,7 +12,7 @@ const Facts = () => {
             const { id, img, title, text } = facts;
 
             return (
-              <div className="fact__card section-center">
+              <div className="fact__card section-center" key={id}>
                 <img className="fact__card--img" src={img} alt="panda" />
                 <div className="card-body">
                   <h5 className="card-title">{title}</h5>
