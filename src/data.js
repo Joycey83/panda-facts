@@ -1,3 +1,5 @@
+import image1 from "./images/image-1.jpg";
+import image2 from "./images/image-2.jpeg";
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
   { id: 2, href: "#pandaFacts", text: "services" },
@@ -25,7 +27,7 @@ export const socialLinks = [
 export const pandaFacts = [
   {
     id: 1,
-    img: "",
+    img: image1,
     title: "One",
     text: "Pandas have lived on earth for two to three million years.",
   },
