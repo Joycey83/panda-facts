@@ -5,6 +5,9 @@ import image4 from "./images/image-4.jpeg";
 import image5 from "./images/image-5.jpg";
 import image6 from "./images/image-6.jpg";
 import image7 from "./images/image-7.jpg";
+import image8 from "./images/image-8.jpg";
+import image9 from "./images/image-9.jpg";
+import image10 from "./images/image-10.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
@@ -75,19 +78,19 @@ export const pandaFacts = [
   },
   {
     id: 8,
-    img: "",
+    img: image8,
     title: "Eight",
     text: "Panda researchers have counted 11 different panda calls—and four of them are used only when searching for a mate.",
   },
   {
     id: 9,
-    img: "",
+    img: image9,
     title: "Nine",
     text: "Young pandas stay with the mothers for as long as three years, which means that a wild panda may raise only three or four cubs in a lifetime.",
   },
   {
     id: 10,
-    img: "",
+    img: image10,
     title: "Ten",
     text: "A panda’s entire mating process takes only about two or three days. Once they have mated, females chase the males out of their territory and raise their cubs on their own.",
   },
