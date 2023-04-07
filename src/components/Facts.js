@@ -1,5 +1,6 @@
 import Heading from "./Heading";
 import { pandaFacts } from "../data";
+import PandaFact from "./PandaFact";
 
 const Facts = () => {
   return (
@@ -9,20 +10,9 @@ const Facts = () => {
 
         <div className="grid-container">
           {pandaFacts.map((facts) => {
-            const { id, img, title, text } = facts;
+            // const { id, img, title, text } = facts;
 
-            return (
-              <div className="fact__card " key={id}>
-                <img className="fact__card--img" src={img} alt="panda" />
-                <div className="card-body">
-                  <h5 className="card-title">{title}</h5>
-                  <p className="card-text">{text}</p>
-                  <a href="#" className="btn">
-                    Learn More
-                  </a>
-                </div>
-              </div>
-            );
+            return <PandaFact key={facts.id} {...facts} />;
           })}
         </div>
       </section>
