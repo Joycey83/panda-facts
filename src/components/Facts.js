@@ -10,8 +10,6 @@ const Facts = () => {
 
         <div className="grid-container">
           {pandaFacts.map((facts) => {
-            // const { id, img, title, text } = facts;
-
             return <PandaFact key={facts.id} {...facts} />;
           })}
         </div>
