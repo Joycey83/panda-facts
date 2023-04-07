@@ -117,7 +117,7 @@ Global Classes
 */
 /* Section */
 .section {
-  padding: 5rem 3.125rem;
+  padding: 5rem 3rem;
   scroll-margin-top: 100px;
   /* height: 1500px; */
 }
@@ -125,7 +125,7 @@ Global Classes
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 800px;
 }
 
 .section__heading h2 {
@@ -235,7 +235,7 @@ Panda Facts
   background-color: var(--section-color);
 }
 .fact__card {
-  margin: 2rem 1rem;
+  margin: 2rem 2rem;
   width: 18rem;
   background: #3b7a57;
 }
