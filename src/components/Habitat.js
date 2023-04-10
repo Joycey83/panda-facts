@@ -1,4 +1,8 @@
 const Habitat = () => {
-  return <div>Habitat</div>;
+  return (
+    <>
+      <section>PANDA HABITAT</section>
+    </>
+  );
 };
 export default Habitat;
