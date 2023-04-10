@@ -1,7 +1,7 @@
 const Habitat = () => {
   return (
     <>
-      <section>PANDA HABITAT</section>
+      <section className="section habitat__container">PANDA HABITAT</section>
     </>
   );
 };
