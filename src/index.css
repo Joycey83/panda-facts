@@ -261,3 +261,12 @@ Panda Facts
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
 }
+/* 
+===============
+HABITAT SECTION
+===============
+ */
+
+.habitat__container {
+  background-color: var(--main-color-5);
+}
