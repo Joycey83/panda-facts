@@ -15,6 +15,7 @@ const About = () => {
           </div>
           <article className="about__info">
             <h3 className="about__subheading">overview</h3>
+
             <p>
               The panda, with its distinctive black and white coat, is adored by
               the world and considered a national treasure in China.

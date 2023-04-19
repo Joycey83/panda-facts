@@ -5,6 +5,10 @@ const Habitat = () => {
     <>
       <section className="section habitat__container" id="habitat">
         <Heading mainHeading="Habitat of" spanHeading="The Panda" />
+        <p className="habitat__caption">
+          The giant panda was once widespread throughout southern and eastern
+          China, as well as neighbouring Myanmar and northern Vietnam.
+        </p>
         <div className="section-center about-center">
           <div className="about__img">
             <img
@@ -15,10 +19,7 @@ const Habitat = () => {
           </div>
           <article className="habitat__info">
             <h3 className="habitat__subheading">A shrinking Habitat</h3>
-            <p>
-              The panda, with its distinctive black and white coat, is adored by
-              the world and considered a national treasure in China.
-            </p>
+
             <p>
               Pandas live mainly in temperate forests high in the mountains of
               southwest China, where they subsist almost entirely on bamboo.
