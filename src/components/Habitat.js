@@ -1,5 +1,6 @@
 import Heading from "./Heading";
 import habitatImg from "../images/panda-habitat.jpg";
+import HabitatTwo from "./HabitatTwo";
 
 const Habitat = () => {
   return (
@@ -38,6 +39,7 @@ const Habitat = () => {
             </a>
           </article>
         </div>
+        <HabitatTwo />
       </section>
     </>
   );
