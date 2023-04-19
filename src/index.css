@@ -13,6 +13,8 @@ Variables
   --main-color-5: #fff;
   /* Section color */
   --section-color: #ecffdc;
+  /* Heading Colors */
+  --heading-color-1: #006400;
   /* Font styles */
   --capitalize: uppercase;
   --transition: all 0.3s linear;
@@ -270,4 +272,12 @@ HABITAT SECTION
 
 .habitat__container {
   background-color: var(--main-color-5);
+}
+
+.habitat__caption {
+  font-size: 20px;
+  color: var(--heading-color-1);
+  text-align: center;
+  line-height: 1.3;
+  margin: 20px 0;
 }

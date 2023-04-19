@@ -21,10 +21,15 @@ const Habitat = () => {
             <h3 className="habitat__subheading">A shrinking Habitat</h3>
 
             <p>
-              Pandas live mainly in temperate forests high in the mountains of
-              southwest China, where they subsist almost entirely on bamboo.
-              They must eat around 26 to 84 pounds of it every day, depending on
-              what part of the bamboo they are eating.
+              But due to expanding human populations and development, the
+              species is now restricted to around 20 isolated patches of bamboo
+              forest in six mountain ranges in China's Sichuan, Shaanxi and
+              Gansu provinces. Most of the remaining wild pandas live in the
+              Minshan and Qinling mountains. And it is here that WWF has
+              focussed its giant panda conservation work, supporting the Chinese
+              government's efforts to conserve the species. Since habitat loss
+              is the most serious threat to the panda, establishing new reserves
+              and extending existing ones are crucial to its survival.
             </p>
             {/* information taken from WWF */}
             <a href="#home" className="btn">
