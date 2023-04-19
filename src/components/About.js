@@ -1,5 +1,5 @@
 import Heading from "./Heading";
-import aboutImg from "./images/about-image.jpg";
+
 const About = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const About = () => {
         <div className="section-center about-center">
           <div className="about__img">
             <img
-              src={aboutImg}
+              src=""
               className="about__photo"
               alt="panda chewing on Bamboo"
             />

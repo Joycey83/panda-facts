@@ -11,11 +11,7 @@ const Habitat = () => {
         </p>
         <div className="section-center about-center">
           <div className="about__img">
-            <img
-              src="https://data.chinatravel.com/images/mobile-first/giant-panda/current-panda-habitat.jpg"
-              className="habitat__photo"
-              alt="pandas"
-            />
+            <img src="" className="habitat__photo" alt="panda habitat map" />
           </div>
           <article className="habitat__info">
             <h3 className="habitat__subheading">A shrinking Habitat</h3>
