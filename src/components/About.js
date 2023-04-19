@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import aboutImg from "./images/about-image.jpg";
 const About = () => {
   return (
     <>
@@ -8,9 +9,9 @@ const About = () => {
         <div className="section-center about-center">
           <div className="about__img">
             <img
-              src="https://static.businessinsider.com/image/51dd6b0ceab8eaa223000013/image.jpg"
+              src={aboutImg}
               className="about__photo"
-              alt="pandas"
+              alt="panda chewing on Bamboo"
             />
           </div>
           <article className="about__info">
