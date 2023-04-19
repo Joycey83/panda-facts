@@ -210,7 +210,8 @@ About
   gap: 2rem;
 }
 
-.about__photo {
+.about__photo,
+.habitat__photo {
   display: block;
   width: 100%;
 }
