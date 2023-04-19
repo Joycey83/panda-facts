@@ -1,7 +1,8 @@
+import pandaReserve from "../images/panda-reserve.jpg";
 const HabitatTwo = () => {
   return (
     <>
-      <article>
+      <article className=" section habitat-two--info">
         <p>
           After a significant increase in recent years, China now boasts a
           network of 67 panda reserves, which safeguard more than 66% of the
@@ -12,6 +13,14 @@ const HabitatTwo = () => {
           potential breeding mates.
         </p>
       </article>
+      <div className="reserve__img">
+        <p>The image below only show some of the 67 panda reserves in China</p>
+        <img
+          src={pandaReserve}
+          className="reserve__photo"
+          alt="panda reserve map"
+        />
+      </div>
     </>
   );
 };
