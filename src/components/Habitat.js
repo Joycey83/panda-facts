@@ -1,7 +1,10 @@
+import Heading from "./Heading";
+
 const Habitat = () => {
   return (
     <>
       <section className="section habitat__container" id="habitat">
+        <Heading mainHeading="Habitat of" spanHeading="The Panda" />
         <div className="section-center about-center">
           <div className="about__img">
             <img
