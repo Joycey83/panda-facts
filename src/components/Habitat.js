@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import habitatImg from "../images/panda-habitat.jpg";
 
 const Habitat = () => {
   return (
@@ -11,7 +12,11 @@ const Habitat = () => {
         </p>
         <div className="section-center about-center">
           <div className="about__img">
-            <img src="" className="habitat__photo" alt="panda habitat map" />
+            <img
+              src={habitatImg}
+              className="habitat__photo"
+              alt="panda habitat map"
+            />
           </div>
           <article className="habitat__info">
             <h3 className="habitat__subheading">A shrinking Habitat</h3>
