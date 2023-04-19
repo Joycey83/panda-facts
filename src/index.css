@@ -278,6 +278,24 @@ HABITAT SECTION
   font-size: 20px;
   color: var(--heading-color-1);
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.5;
   margin: 20px 0;
+}
+.habitat__subheading {
+  letter-spacing: var(--spacing);
+  padding: 10px 0;
+}
+.habitat__info {
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+.habitat-para {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.habitat__photo {
+  position: relative;
+  top: -5px;
+  padding: 0 15px;
 }

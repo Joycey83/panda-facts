@@ -21,7 +21,7 @@ const Habitat = () => {
           <article className="habitat__info">
             <h3 className="habitat__subheading">A shrinking Habitat</h3>
 
-            <p>
+            <p className="habitat-para">
               But due to expanding human populations and development, the
               species is now restricted to around 20 isolated patches of bamboo
               forest in six mountain ranges in China's Sichuan, Shaanxi and
