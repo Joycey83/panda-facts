@@ -14,7 +14,7 @@ const Habitat = () => {
             />
           </div>
           <article className="habitat__info">
-            <h3 className="habitat__subheading">Habitat of the panda</h3>
+            <h3 className="habitat__subheading">A shrinking Habitat</h3>
             <p>
               The panda, with its distinctive black and white coat, is adored by
               the world and considered a national treasure in China.
