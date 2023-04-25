@@ -1,0 +1,25 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* Main colors */
+  --main-color-1: #3b7a57;
+  --main-color-2: #7bb661;
+  --main-color-3: #3cb371;
+  --main-color-4: #355e3b;
+  --main-color-5: #fff;
+  /* Section color */
+  --section-color: #ecffdc;
+  /* Heading Colors */
+  --heading-color-1: #006400;
+  /* Font styles */
+  --capitalize: uppercase;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
