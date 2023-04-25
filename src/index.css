@@ -61,19 +61,6 @@ Global Classes
   max-width: 800px;
 }
 
-.section__heading h2 {
-  text-align: center;
-  text-transform: var(--capitalize);
-  letter-spacing: var(--spacing);
-}
-
-.section__heading span {
-  color: var(--main-color-4);
-  font-weight: 500;
-  letter-spacing: var(--spacing);
-  text-transform: var(--capitalize);
-}
-
 /*  
 ========
 Hero
