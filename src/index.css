@@ -60,6 +60,64 @@ Global Classes
   margin: 0 auto;
   max-width: 800px;
 }
+/*  
+========
+Hero
+========
+*/
+
+/* .scroll__container {
+  padding: 18px;
+  margin-top: 100px;
+  height: 1500px;
+} */
+.hero__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(68, 98, 90, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./images/hero-image.jpg") center/cover no-repeat;
+}
+
+.hero__banner {
+  text-align: center;
+  color: var(--main-color-5);
+  padding: 0 2rem;
+}
+
+.hero__banner h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.hero__banner p {
+  font-size: 2rem;
+  letter-spacing: var(--spacing);
+}
+
+.hero__btn {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--main-color-2);
+  color: var(--main-color-5);
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.hero__btn:hover {
+  background: transparent;
+  color: var(--main-color-2);
+  border-color: var(--main-color-5);
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
 
 /* 
 =========
