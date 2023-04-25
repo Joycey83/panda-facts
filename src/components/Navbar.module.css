@@ -1,0 +1,45 @@
+@import "./vars.css";
+
+/* ==========
+   Navbar
+   ==========
+ */
+.navbar__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color-1);
+  width: 100%;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.navbar__logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.35rem;
+}
+
+.navbar__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: black;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: var(--main-color-4);
+  border-bottom: 0.35rem solid var(--main-color-3);
+}

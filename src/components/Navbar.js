@@ -1,10 +1,11 @@
 import logo from "../images/panda-logo.png";
+import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar__container">
-        <div className="navbar__center">
-          <img src={logo} className="navbar__logo" alt="Panda logo" />
+      <nav className={styles["navbar__container"]}>
+        <div className={styles["navbar__center"]}>
+          <img src={logo} className={styles["navbar__logo"]} alt="Panda logo" />
           <ul className="nav-links">
             <li>
               <a href="#" className="nav-link">
