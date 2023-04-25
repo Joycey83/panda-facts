@@ -6,19 +6,19 @@ const Navbar = () => {
       <nav className={styles["navbar__container"]}>
         <div className={styles["navbar__center"]}>
           <img src={logo} className={styles["navbar__logo"]} alt="Panda logo" />
-          <ul className="nav-links">
+          <ul className={styles["nav-links"]}>
             <li>
-              <a href="#" className="nav-link">
+              <a href="#" className={styles["nav-link"]}>
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <a href="#" className={styles["nav-link"]}>
                 Panda Facts
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <a href="#" className={styles["nav-link"]}>
                 Photo Gallery
               </a>
             </li>
