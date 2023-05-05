@@ -117,6 +117,16 @@ export const predator = [
     img: "",
     text: "Snow leopards are animals with great strength and power. They usually attack panda cubs with the help of their sharp teeth and sharp claws. Mostly active, snow leopards feed on their preys for several days. They are a danger to pandas mostly because they reside in the same mountainous region of central China.",
   },
-  { id: 4, title: "", img: "", text: "" },
-  { id: 5, title: "", img: "", text: "" },
+  {
+    id: 4,
+    title: "Jackals",
+    img: "",
+    text: "Jackals are scavengers that are well adapted for hunting because of their long legs and curved canine teeth. They usually hunt large prey such as antelope, gazelles and livestock, but are also known to hunt baby giant pandas.",
+  },
+  {
+    id: 5,
+    title: "Yellow-throated Martens",
+    img: "",
+    text: "Native to Asia, yellow-throated martens are muscular and strong animals. There are many cases where panda cubs are either wounded or killed by the yellow-throated martens.",
+  },
 ];
