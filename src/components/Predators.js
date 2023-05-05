@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import { predator } from "../data";
 
 const Predators = () => {
   return (
