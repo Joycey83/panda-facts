@@ -99,26 +99,9 @@ export const pandaFacts = [
 // PREDATOR
 
 export const predator = [
-  {
-    id: 1,
-    title: "Humans",
-    img: "",
-    text: "Humans are considered the most dangerous predators of giant pandas. The illegal hunting of giant pandas by humans for their fur and meat has been a great threat to the population of giant pandas"
-    id: 2,
-    title: "Wild dogs",
-    img: "",
-    text: "Wild dogs are known for attacking the cubs of giant pandas. They are even capable of killing adult giant pandas for food.",
-    id: 3,
-    title: "Snow Leopards",
-    img: "",
-    text: "Snow leopards are animals with great strength and power. They usually attack panda cubs with the help of their sharp teeth and sharp claws. Mostly active, snow leopards feed on their preys for several days. They are a danger to pandas mostly because they reside in the same mountainous region of central China.",
-    id: 4,
-    title: "Jackals",
-    img: "",
-    text: "Jackals are scavengers that are well adapted for hunting because of their long legs and curved canine teeth. They usually hunt large prey such as antelope, gazelles and livestock, but are also known to hunt baby giant pandas. ",
-    id: 5,
-    title: "Yellow-throated Martens",
-    img: "",
-    text: "Native to Asia, yellow-throated martens are muscular and strong animals. There are many cases where panda cubs are either wounded or killed by the yellow-throated martens. ",
-  },
+  { id: 1, title: "", img: "", text: "" },
+  { id: 2, title: "", img: "", text: "" },
+  { id: 3, title: "", img: "", text: "" },
+  { id: 4, title: "", img: "", text: "" },
+  { id: 5, title: "", img: "", text: "" },
 ];
