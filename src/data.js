@@ -105,7 +105,12 @@ export const predator = [
     img: "",
     text: "Humans are considered the most dangerous predators of giant pandas. The illegal hunting of giant pandas by humans for their fur and meat has been a great threat to the population of giant pandas",
   },
-  { id: 2, title: "Wild dogs", img: "", text: "" },
+  {
+    id: 2,
+    title: "Wild dogs",
+    img: "",
+    text: "Wild dogs are known for attacking the cubs of giant pandas. They are even capable of killing adult giant pandas for food.",
+  },
   { id: 3, title: "", img: "", text: "" },
   { id: 4, title: "", img: "", text: "" },
   { id: 5, title: "", img: "", text: "" },
