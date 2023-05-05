@@ -1,7 +1,7 @@
 const Predators = () => {
   return (
     <>
-      <h2>Predators</h2>
+      <section className="section predator__container">Predators</section>
     </>
   );
 };

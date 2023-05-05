@@ -228,3 +228,13 @@ HABITAT SECTION
 .reserve__photo {
   margin: 2rem auto;
 }
+
+/* 
+==============
+PREDATOR
+==============
+ */
+
+.predator__container {
+  background-color: var(--section-color);
+}
