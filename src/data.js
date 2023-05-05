@@ -107,7 +107,7 @@ export const predator = [
     id: 2,
     title: "Wild dogs",
     img: "",
-    text: "",
+    text: "Wild dogs are known for attacking the cubs of giant pandas. They are even capable of killing adult giant pandas for food.",
     id: 3,
     title: "Humans",
     img: "",
