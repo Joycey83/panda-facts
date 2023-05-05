@@ -117,8 +117,8 @@ export const predator = [
     img: "",
     text: "Jackals are scavengers that are well adapted for hunting because of their long legs and curved canine teeth. They usually hunt large prey such as antelope, gazelles and livestock, but are also known to hunt baby giant pandas. ",
     id: 5,
-    title: "Humans",
+    title: "Yellow-throated Martens",
     img: "",
-    text: "",
+    text: "Native to Asia, yellow-throated martens are muscular and strong animals. There are many cases where panda cubs are either wounded or killed by the yellow-throated martens. ",
   },
 ];
