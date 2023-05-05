@@ -99,8 +99,13 @@ export const pandaFacts = [
 // PREDATOR
 
 export const predator = [
-  { id: 1, title: "", img: "", text: "" },
-  { id: 2, title: "", img: "", text: "" },
+  {
+    id: 1,
+    title: "Humans",
+    img: "",
+    text: "Humans are considered the most dangerous predators of giant pandas. The illegal hunting of giant pandas by humans for their fur and meat has been a great threat to the population of giant pandas",
+  },
+  { id: 2, title: "Wild dogs", img: "", text: "" },
   { id: 3, title: "", img: "", text: "" },
   { id: 4, title: "", img: "", text: "" },
   { id: 5, title: "", img: "", text: "" },
