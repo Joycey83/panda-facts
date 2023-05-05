@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Facts from "./components/Facts";
 import Habitat from "./components/Habitat";
+import Predators from "./components/Predators";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Facts />
         <Habitat />
+        <Predators />
       </header>
     </div>
   );
