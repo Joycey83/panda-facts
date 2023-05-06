@@ -114,7 +114,7 @@ export const predator = [
   {
     id: 3,
     title: "Snow Leopards",
-    img: "",
+    img: "https://th.bing.com/th/id/R.fd1b6505950390232eacada5392e8e43?rik=8spO7wl5gL%2fJYw&pid=ImgRaw&r=0",
     text: "Snow leopards are animals with great strength and power. They usually attack panda cubs with the help of their sharp teeth and sharp claws. Mostly active, snow leopards feed on their preys for several days. They are a danger to pandas mostly because they reside in the same mountainous region of central China.",
   },
   {

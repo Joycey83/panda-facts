@@ -11,7 +11,12 @@ const Predators = () => {
           return (
             <article className="predator__container" key={id}>
               <div className="img__container">
-                <img src={img} alt={title} className="predator--img" />
+                <img
+                  src={img}
+                  alt={title}
+                  className="predator--img"
+                  width="120"
+                />
               </div>
               <div className="predator--info">
                 <h4 className="predator--title">{title}</h4>
