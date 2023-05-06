@@ -242,5 +242,8 @@ PREDATOR
 .predators__container {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+}
+
+.predator--info {
+  margin: 0 1rem;
 }
