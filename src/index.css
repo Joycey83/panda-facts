@@ -238,3 +238,9 @@ PREDATOR
 .predator__container {
   background-color: var(--section-color);
 }
+
+.predators__container {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}

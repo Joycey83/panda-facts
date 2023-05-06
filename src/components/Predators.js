@@ -9,7 +9,7 @@ const Predators = () => {
         {predator.map((predator) => {
           const { id, title, img, text } = predator;
           return (
-            <article className="predator__container" key={id}>
+            <article className="predators__container" key={id}>
               <div className="img__container">
                 <img
                   src={img}
