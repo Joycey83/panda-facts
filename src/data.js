@@ -108,7 +108,7 @@ export const predator = [
   {
     id: 2,
     title: "Wild dogs",
-    img: "",
+    img: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/dhole-asian-wild-dog-john-olson.jpg",
     text: "Wild dogs are known for attacking the cubs of giant pandas. They are even capable of killing adult giant pandas for food.",
   },
   {
