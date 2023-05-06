@@ -252,9 +252,11 @@ PREDATOR
 }
 
 .predator--info {
+  border-left: 4mm ridge rgba(44, 203, 68, 0.6);
   margin: 0 1rem;
+  padding: 0 1rem;
 }
 
 .predator--title {
-  border-left: 4px dotted blue;
+  font-size: 1rem;
 }
