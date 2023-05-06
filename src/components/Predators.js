@@ -9,13 +9,13 @@ const Predators = () => {
         {predator.map((predator) => {
           const { id, title, img, text } = predator;
           return (
-            <article className="predator__container">
+            <article className="predator__container" key={id}>
               <div className="img__container">
-                <img src="" alt="" className="predator--img" />
+                <img src={img} alt={title} className="predator--img" />
               </div>
               <div className="predator--info">
-                <h4 className="predator--title"></h4>
-                <p className="predator--text"></p>
+                <h4 className="predator--title">{title}</h4>
+                <p className="predator--text">{text}</p>
               </div>
             </article>
           );
