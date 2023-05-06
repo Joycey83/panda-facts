@@ -102,7 +102,7 @@ export const predator = [
   {
     id: 1,
     title: "Humans",
-    img: "",
+    img: "https://th.bing.com/th/id/R.a270ccdbd090d1c92068cdaad298a4d1?rik=ykkejZPcVSzozw&riu=http%3a%2f%2fpandasemely.weebly.com%2fuploads%2f3%2f0%2f7%2f9%2f30792533%2f8707122.jpg%3f462&ehk=WUfDg6gyEOtAiHF%2b6pJbs2ljk%2bwYEj%2bbqSyQtG7HqfE%3d&risl=&pid=ImgRaw&r=0",
     text: "Humans are considered the most dangerous predators of giant pandas. The illegal hunting of giant pandas by humans for their fur and meat has been a great threat to the population of giant pandas",
   },
   {
