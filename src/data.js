@@ -120,7 +120,7 @@ export const predator = [
   {
     id: 4,
     title: "Jackals",
-    img: "",
+    img: "https://th.bing.com/th/id/R.15c3939d8a8f0735bf20d7e7539ca0b2?rik=eESYTQd5njW1SA&riu=http%3a%2f%2felelur.com%2fdata_images%2fmammals%2fjackal%2fjackal-06.jpg&ehk=Tjr9wyfOwoIOabUU%2fFJSwJ2iDjvD%2bHBTM1MzN9yoLOY%3d&risl=&pid=ImgRaw&r=0",
     text: "Jackals are scavengers that are well adapted for hunting because of their long legs and curved canine teeth. They usually hunt large prey such as antelope, gazelles and livestock, but are also known to hunt baby giant pandas.",
   },
   {
