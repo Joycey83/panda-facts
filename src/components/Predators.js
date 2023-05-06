@@ -13,6 +13,9 @@ const Predators = () => {
               <div className="img__container">
                 <img src="" alt="" className="predator--img" />
               </div>
+              <div className="predator--info">
+                <h4></h4>
+              </div>
             </article>
           );
         })}
