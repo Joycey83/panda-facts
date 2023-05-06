@@ -8,7 +8,7 @@ const Predators = () => {
         <Heading mainHeading="5 deadliest" spanHeading="predators" />
         {predator.map((predator) => {
           const { id, title, img, text } = predator;
-          return <article>item</article>;
+          return <article className="predator__container">item</article>;
         })}
       </section>
     </>
