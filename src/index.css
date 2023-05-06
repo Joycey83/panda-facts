@@ -244,6 +244,10 @@ PREDATOR
   align-items: center;
 }
 
+.predator--img {
+  width: 250px;
+}
+
 .predator--info {
   margin: 0 1rem;
 }
