@@ -126,7 +126,7 @@ export const predator = [
   {
     id: 5,
     title: "Yellow-throated Martens",
-    img: "",
+    img: "https://th.bing.com/th/id/R.04b0c3d76e1d6719e7c6d5486b43f410?rik=l3jY2kiNJtvsUg&riu=http%3a%2f%2ffarm5.staticflickr.com%2f4018%2f4649823387_0cb07d3257_o.jpg&ehk=tfvIWWTNYLX4zbPRdprL3OteEamTM6ww%2fBla32xRGQ4%3d&risl=1&pid=ImgRaw&r=0",
     text: "Native to Asia, yellow-throated martens are muscular and strong animals. There are many cases where panda cubs are either wounded or killed by the yellow-throated martens.",
   },
 ];
