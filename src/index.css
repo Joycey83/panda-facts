@@ -254,3 +254,7 @@ PREDATOR
 .predator--info {
   margin: 0 1rem;
 }
+
+.predator--title {
+  border-left: 4px dotted blue;
+}
