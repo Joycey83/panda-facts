@@ -1,4 +1,10 @@
+import HabitatLossFragmentation from "./HabitatLossFragmentation";
+
 const Threats = () => {
-  return <>Threats</>;
+  return (
+    <>
+      <HabitatLossFragmentation />
+    </>
+  );
 };
 export default Threats;
