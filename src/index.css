@@ -260,3 +260,8 @@ PREDATOR
 .predator--title {
   font-size: 1rem;
 }
+
+.predator--text {
+  font-size: 20px;
+  line-height: 1.3;
+}
