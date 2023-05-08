@@ -134,6 +134,8 @@ export const predator = [
 // Threats
 
 export const threats = [
-  { id: 1, img: "", text: "" },
-  { id: 2, img: "", text: "" },
+  { id: 1, title: "Habitat loss and fragmentation", img: "", text: "" },
+  { id: 2, title: "Harvesting Plants", img: "", text: "" },
+  { id: 3, title: "Hunting", img: "", text: "" },
+  { id: 4, title: "Tourism", img: "", text: "" },
 ];
