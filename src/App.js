@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Facts from "./components/Facts";
 import Habitat from "./components/Habitat";
 import Predators from "./components/Predators";
+import Threats from "./components/Threats";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Facts />
         <Habitat />
         <Predators />
+        <Threats />
       </header>
     </div>
   );
