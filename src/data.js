@@ -152,5 +152,10 @@ export const threats = [
     textTwo:
       "While it is rare for poachers to intentionally kill a panda, some are accidentally injured or killed by traps and snares set for other animals, such as musk deer and black bears.",
   },
-  { id: 3, title: "Tourism", img: "", text: "" },
+  {
+    id: 3,
+    title: "Tourism",
+    img: "https://asiatrend.org/wp-content/uploads/CFP468112529-Copy-1068x712.jpg",
+    text: "",
+  },
 ];
