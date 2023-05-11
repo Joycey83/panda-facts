@@ -134,7 +134,13 @@ export const predator = [
 // Threats
 
 export const threats = [
-  { id: 1, title: "Harvesting Plants", img: "", text: "" },
+  {
+    id: 1,
+    title: "Harvesting Plants",
+    img: "",
+    textOne:
+      "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
+  },
   { id: 2, title: "Hunting", img: "", text: "" },
   { id: 3, title: "Tourism", img: "", text: "" },
 ];
