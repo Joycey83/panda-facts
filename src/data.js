@@ -137,7 +137,7 @@ export const threats = [
   {
     id: 1,
     title: "Harvesting Plants",
-    img: "",
+    img: "https://www.viajeachina.cn/userfiles/attractions/Sichuan/Mianyang/Wanglang/wanglang_4.jpg",
     textOne:
       "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
     textTwo:
