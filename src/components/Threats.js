@@ -4,7 +4,7 @@ import Heading from "./Heading";
 const Threats = () => {
   return (
     <>
-      <section>
+      <section className="section threats__container">
         <Heading mainHeading="major" spanHeading="threats" />
         <HabitatLossFragmentation />
       </section>

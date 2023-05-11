@@ -1,4 +1,4 @@
 const HabitatLossFragmentation = () => {
-  return <>Testing one, two , three</>;
+  return <></>;
 };
 export default HabitatLossFragmentation;
