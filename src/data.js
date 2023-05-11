@@ -93,8 +93,6 @@ export const pandaFacts = [
     img: image10,
     title: "Ten",
     text: "A panda’s entire mating process takes only about two or three days. Once they have mated, females chase the males out of their territory and raise their cubs on their own.",
-    textOne:
-      "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
   },
 ];
 
