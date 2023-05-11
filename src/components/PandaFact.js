@@ -1,4 +1,4 @@
-const PandaFact = ({ img, title, text }) => {
+const PandaFact = ({ img, title, text, textOne }) => {
   return (
     <>
       <div className="fact__card ">
@@ -6,6 +6,7 @@ const PandaFact = ({ img, title, text }) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{text}</p>
+          <p>{textOne}</p>
           <a href="#" className="btn">
             Learn More
           </a>
