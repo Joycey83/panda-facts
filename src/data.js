@@ -147,7 +147,10 @@ export const threats = [
     id: 2,
     title: "Hunting",
     img: "https://external-preview.redd.it/cvmRZA31-BRIq2BgHMoxATMSJXgi4qakGaxvmRZFFgA.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=3c672e73b55f8812b8282f1a464bc65a83e800ad",
-    text: "",
+    textOne:
+      "Some poaching of pandas still occurs. Hunting the animals for their fur has declined due to strict laws and greater public awareness of the panda’s protected status.",
+    textTwo:
+      "While it is rare for poachers to intentionally kill a panda, some are accidentally injured or killed by traps and snares set for other animals, such as musk deer and black bears.",
   },
   { id: 3, title: "Tourism", img: "", text: "" },
 ];
