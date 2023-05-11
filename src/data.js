@@ -143,6 +143,11 @@ export const threats = [
     textTwo:
       "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
   },
-  { id: 2, title: "Hunting", img: "", text: "" },
+  {
+    id: 2,
+    title: "Hunting",
+    img: "https://external-preview.redd.it/cvmRZA31-BRIq2BgHMoxATMSJXgi4qakGaxvmRZFFgA.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=3c672e73b55f8812b8282f1a464bc65a83e800ad",
+    text: "",
+  },
   { id: 3, title: "Tourism", img: "", text: "" },
 ];
