@@ -1,4 +1,4 @@
-const PandaFact = ({ img, title, text, textOne }) => {
+const PandaFact = ({ img, title, text }) => {
   return (
     <>
       <div className="fact__card ">

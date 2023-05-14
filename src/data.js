@@ -141,7 +141,7 @@ export const threats = [
     textOne:
       "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
     textTwo:
-      "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
+      "The Minshan Mountains alone contain over 5,000 plant species: 75% of which are used in traditional Chinese medicine. Harvesting these medicinal plants provides many families with an important source of income. But it also places additional pressure on the fragile forests.",
   },
   {
     id: 2,
