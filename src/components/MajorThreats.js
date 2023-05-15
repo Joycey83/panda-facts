@@ -2,7 +2,7 @@ import HabitatLossFragmentation from "./HabitatLossFragmentation";
 import Heading from "./Heading";
 import { threats } from "../data";
 
-const Threats = () => {
+const MajorThreats = () => {
   return (
     <>
       <section className="section threats__container">
@@ -14,4 +14,4 @@ const Threats = () => {
     </>
   );
 };
-export default Threats;
+export default MajorThreats;
