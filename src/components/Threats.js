@@ -1,10 +1,10 @@
 const Threats = ({ title, img, text, textOne, textTwo }) => {
   return (
     <>
-      <section className="section habitat-loss--frag">
-        <div className="habitat-loss__container">
+      <section className="section threats__container">
+        <div className="threats--info__container">
           <h2>{title}</h2>
-          <img src={img} alt={title} />
+          <img src={img} alt={title} className="threats--img" />
           <div className="">
             <p>{text}</p>
             <p>{textOne}</p>
