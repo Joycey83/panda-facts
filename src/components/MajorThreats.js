@@ -5,7 +5,7 @@ import { threats } from "../data";
 const MajorThreats = () => {
   return (
     <>
-      <section className="section threats__container">
+      <section className="section major-threats__container">
         <Heading mainHeading="major" spanHeading="threats" />
         {threats.map((threat) => {
           return <HabitatLossFragmentation key={threat.id} {...threat} />;
