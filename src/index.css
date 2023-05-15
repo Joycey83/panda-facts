@@ -287,4 +287,6 @@ MAJOR THREATS
 
 .threats--info {
   margin: 0 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }

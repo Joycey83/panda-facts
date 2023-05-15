@@ -4,7 +4,9 @@ const Threats = ({ title, img, textOne, textTwo }) => {
       <section className="section threats__container">
         <h2>{title}</h2>
         <div className="threats--info__container">
-          <img src={img} alt={title} className="threats--img" />
+          <div className="img--container">
+            <img src={img} alt={title} className="threats--img" />
+          </div>
           <div className="threats--info">
             <p>{textOne}</p>
             <p>{textTwo}</p>
