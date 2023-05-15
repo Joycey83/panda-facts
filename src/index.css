@@ -284,3 +284,7 @@ MAJOR THREATS
   display: flex;
   align-items: flex-end;
 }
+
+.threats--info {
+  margin: 0 1rem;
+}
