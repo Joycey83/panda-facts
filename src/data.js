@@ -156,6 +156,9 @@ export const threats = [
     id: 3,
     title: "Tourism",
     img: "https://asiatrend.org/wp-content/uploads/CFP468112529-Copy-1068x712.jpg",
-    text: "As does mass tourism. The construction of tourist facilities and the rapidly increasing number of tourists in the forests is causing significant disturbance to pandas and their habitats.",
+    textOne:
+      "As does mass tourism. The construction of tourist facilities and the rapidly increasing number of tourists in the forests is causing significant disturbance to pandas and their habitats.",
+    textTwo:
+      "The expansion of tourist reception sites will also cut down forests and turn more forest land into roads, reception sites and scenic spots, which seriously affects the living space of wildlife and makes the habitat of giant pandas smaller and smaller.",
   },
 ];

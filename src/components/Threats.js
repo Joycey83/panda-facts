@@ -1,4 +1,4 @@
-const Threats = ({ title, img, text, textOne, textTwo }) => {
+const Threats = ({ title, img, textOne, textTwo }) => {
   return (
     <>
       <section className="section threats__container">
@@ -6,7 +6,6 @@ const Threats = ({ title, img, text, textOne, textTwo }) => {
         <div className="threats--info__container">
           <img src={img} alt={title} className="threats--img" />
           <div className="threats--info">
-            <p>{text}</p>
             <p>{textOne}</p>
             <p>{textTwo}</p>
           </div>
