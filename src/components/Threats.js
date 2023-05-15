@@ -1,4 +1,4 @@
-const HabitatLossFragmentation = ({ title, img, text, textOne, textTwo }) => {
+const Threats = ({ title, img, text, textOne, textTwo }) => {
   return (
     <>
       <section className="section habitat-loss--frag">
@@ -15,4 +15,4 @@ const HabitatLossFragmentation = ({ title, img, text, textOne, textTwo }) => {
     </>
   );
 };
-export default HabitatLossFragmentation;
+export default Threats;

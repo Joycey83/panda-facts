@@ -1,4 +1,4 @@
-import HabitatLossFragmentation from "./HabitatLossFragmentation";
+import Threats from "./Threats";
 import Heading from "./Heading";
 import { threats } from "../data";
 
@@ -8,7 +8,7 @@ const MajorThreats = () => {
       <section className="section major-threats__container">
         <Heading mainHeading="major" spanHeading="threats" />
         {threats.map((threat) => {
-          return <HabitatLossFragmentation key={threat.id} {...threat} />;
+          return <Threats key={threat.id} {...threat} />;
         })}
       </section>
     </>
