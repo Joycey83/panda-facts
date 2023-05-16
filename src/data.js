@@ -162,3 +162,11 @@ export const threats = [
       "The expansion of tourist reception sites will also cut down forests and turn more forest land into roads, reception sites and scenic spots, which seriously affects the living space of wildlife and makes the habitat of giant pandas smaller and smaller.",
   },
 ];
+
+// PANDA VIDEOS
+
+export const videos = [
+  { id: 1, url: "https://www.youtube.com/watch?v=TBTKuhblD1U" },
+  { id: 2, url: "" },
+  { id: 2, url: "" },
+];
