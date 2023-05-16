@@ -294,3 +294,11 @@ MAJOR THREATS
   padding: 25px;
   border-radius: 30px 40px;
 }
+
+.sub--heading {
+  color: var(--subheading-color);
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
