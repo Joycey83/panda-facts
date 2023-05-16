@@ -2,7 +2,7 @@ const Threats = ({ title, img, textOne, textTwo }) => {
   return (
     <>
       <section className="section threats__container">
-        <h2>{title}</h2>
+        <h2 className="sub--heading">{title}</h2>
         <div className="threats--info__container">
           <div className="img--container">
             <img src={img} alt={title} className="threats--img" />
