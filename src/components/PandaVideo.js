@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import { videos } from "../data";
 
 const PandaVideo = () => {
