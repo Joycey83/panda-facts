@@ -5,6 +5,7 @@ import Facts from "./components/Facts";
 import Habitat from "./components/Habitat";
 import Predators from "./components/Predators";
 import MajorThreats from "./components/MajorThreats";
+import PandaVideo from "./components/PandaVideo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Habitat />
         <Predators />
         <MajorThreats />
+        <PandaVideo />
       </header>
     </div>
   );
