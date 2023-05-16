@@ -12,7 +12,7 @@ const PandaVideo = () => {
           return (
             <div key={id}>
               <h4>{text}</h4>
-              <ReactPlayer url={url} controls="true" />
+              <ReactPlayer url={url} controls={true} />
             </div>
           );
         })}
