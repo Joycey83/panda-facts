@@ -166,7 +166,19 @@ export const threats = [
 // PANDA VIDEOS
 
 export const videos = [
-  { id: 1, url: "https://www.youtube.com/watch?v=TBTKuhblD1U" },
-  { id: 2, url: "" },
-  { id: 2, url: "" },
+  {
+    id: 1,
+    text: "Baby Pandas playing with Zookeeper",
+    url: "https://www.youtube.com/watch?v=l73rmrLTHQc",
+  },
+  {
+    id: 2,
+    text: "Panda cub and nanny's war",
+    url: "https://www.youtube.com/watch?v=CpK1lZJmbJY",
+  },
+  {
+    id: 3,
+    text: "Cutest baby Panda Videos Compilation",
+    url: "https://www.youtube.com/watch?v=ZRDZlwnTvJU",
+  },
 ];
