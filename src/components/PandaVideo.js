@@ -4,8 +4,9 @@ import { videos } from "../data";
 const PandaVideo = () => {
   return (
     <>
-      <section className="section panda-video__container">
+      <section className="section panda--video__container ">
         <h2>Panda Video</h2>
+
         {videos.map((video) => {
           const { id, text, url } = video;
 

@@ -310,5 +310,6 @@ PANDA VIDEOS
 ==============
  */
 
-.panda-video__container {
+.panda--video__container {
+  background-color: var(--section-color);
 }
