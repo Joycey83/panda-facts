@@ -4,7 +4,7 @@ const PandaVideo = () => {
   return (
     <>
       <h2>Panda Video</h2>
-      <ReactPlayer />
+      <ReactPlayer url="https://www.youtube.com/watch?v=TBTKuhblD1U" />
     </>
   );
 };
