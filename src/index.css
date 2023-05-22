@@ -324,3 +324,15 @@ Footer
   background-color: var(--navbar-color);
   padding: 3rem;
 }
+
+.social--icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social--icon {
+  margin: 0 1rem;
+  font-size: 3rem;
+  color: var(--main-color-4);
+}
