@@ -333,8 +333,7 @@ Footer
 
 .social--icon {
   font-size: 3rem;
-  margin-top: 10rem;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   color: var(--main-color-3);
 }
 
@@ -344,5 +343,6 @@ Footer
 
 .copyright {
   text-align: center;
-  margin-top: 1rem;
+  color: var(--main-color-5);
+  margin-top: 1.5rem;
 }
