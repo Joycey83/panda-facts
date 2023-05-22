@@ -313,3 +313,14 @@ PANDA VIDEOS
 .panda--video__container {
   background-color: var(--section-color);
 }
+
+/* 
+==============
+Footer
+==============
+ */
+
+.footer__container {
+  background-color: var(--navbar-color);
+  padding: 3rem;
+}

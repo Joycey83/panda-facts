@@ -15,7 +15,7 @@ export const pageLinks = [
   { id: 3, href: "#photoGallery", text: "tours" },
 ];
 
-export const socialLinks = [
+export const socialMediaLinks = [
   {
     id: 1,
     href: "https://github.com/Joycey83",
