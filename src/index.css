@@ -322,17 +322,18 @@ Footer
 
 .footer__container {
   background-color: var(--navbar-color);
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .social--icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .social--icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 2rem 1.5rem;
   color: var(--main-color-3);
 }
