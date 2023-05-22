@@ -23,13 +23,13 @@ export const socialMediaLinks = [
   },
   {
     id: 2,
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/i_can_code_too/",
     icon: "fa-brands fa-instagram",
   },
   {
     id: 3,
-    href: "https://www.twitter.com",
-    icon: "fa-brands fa-twitter",
+    href: "https://www.linkedin.com/in/joycecheung24/",
+    icon: "fa-brands fa-linkedin",
   },
 ];
 
