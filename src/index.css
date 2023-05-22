@@ -322,7 +322,7 @@ Footer
 
 .footer__container {
   background-color: var(--navbar-color);
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .social--icons {
@@ -332,11 +332,17 @@ Footer
 }
 
 .social--icon {
-  margin: 0 1rem;
   font-size: 3rem;
+  margin-top: 10rem;
+  padding: 2rem;
   color: var(--main-color-3);
 }
 
 .social--icon:hover {
   color: var(--main-color-5);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
 }

@@ -12,6 +12,10 @@ const Footer = () => {
             );
           })}
         </ul>
+        <p className="copyright">
+          copyright &copy; Panda Facts
+          <span id="date">{new Date().getFullYear()}</span> all rights reserved
+        </p>
       </footer>
     </>
   );
