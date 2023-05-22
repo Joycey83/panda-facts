@@ -34,12 +34,12 @@
 }
 
 .nav-link {
-  color: black;
+  color: var(--main-color-5);
   padding: 0.5rem;
   font-size: 1.2rem;
 }
 
 .nav-link:hover {
-  color: var(--main-color-4);
+  color: var(--main-color-2);
   border-bottom: 0.35rem solid var(--main-color-3);
 }
