@@ -334,5 +334,9 @@ Footer
 .social--icon {
   margin: 0 1rem;
   font-size: 3rem;
-  color: var(--main-color-4);
+  color: var(--main-color-3);
+}
+
+.social--icon:hover {
+  color: var(--main-color-5);
 }
