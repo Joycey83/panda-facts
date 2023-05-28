@@ -13,6 +13,9 @@ import image12 from "./images/jackal.jpg";
 import image13 from "./images/snow-leopard.jpg";
 import image14 from "./images/wild-dog.jpg";
 import image15 from "./images/human.jpg";
+import image16 from "./images/harvesting.jpg";
+import image17 from "./images/hunting.png";
+import image18 from "./images/tourism.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
@@ -142,7 +145,7 @@ export const threats = [
   {
     id: 1,
     title: "Harvesting Plants",
-    img: "https://www.viajeachina.cn/userfiles/attractions/Sichuan/Mianyang/Wanglang/wanglang_4.jpg",
+    img: image16,
     textOne:
       "The panda's mountainous forests continue to be degraded by people harvesting bamboo, gathering firewood and collecting medicinal herbs.",
     textTwo:
@@ -151,7 +154,7 @@ export const threats = [
   {
     id: 2,
     title: "Hunting",
-    img: "https://external-preview.redd.it/cvmRZA31-BRIq2BgHMoxATMSJXgi4qakGaxvmRZFFgA.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=3c672e73b55f8812b8282f1a464bc65a83e800ad",
+    img: image17,
     textOne:
       "Some poaching of pandas still occurs. Hunting the animals for their fur has declined due to strict laws and greater public awareness of the panda’s protected status.",
     textTwo:
@@ -160,7 +163,7 @@ export const threats = [
   {
     id: 3,
     title: "Tourism",
-    img: "https://asiatrend.org/wp-content/uploads/CFP468112529-Copy-1068x712.jpg",
+    img: image18,
     textOne:
       "As does mass tourism. The construction of tourist facilities and the rapidly increasing number of tourists in the forests is causing significant disturbance to pandas and their habitats.",
     textTwo:
