@@ -8,6 +8,11 @@ import image7 from "./images/image-7.jpg";
 import image8 from "./images/image-8.jpg";
 import image9 from "./images/image-9.jpg";
 import image10 from "./images/image-10.jpg";
+import image11 from "./images/yellow-marten.jpg";
+import image12 from "./images/jackal.jpg";
+import image13 from "./images/snow-leopard.jpg";
+import image14 from "./images/wild-dog.jpg";
+import image15 from "./images/human.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
@@ -102,31 +107,31 @@ export const predator = [
   {
     id: 1,
     title: "Humans",
-    img: "https://th.bing.com/th/id/R.a270ccdbd090d1c92068cdaad298a4d1?rik=ykkejZPcVSzozw&riu=http%3a%2f%2fpandasemely.weebly.com%2fuploads%2f3%2f0%2f7%2f9%2f30792533%2f8707122.jpg%3f462&ehk=WUfDg6gyEOtAiHF%2b6pJbs2ljk%2bwYEj%2bbqSyQtG7HqfE%3d&risl=&pid=ImgRaw&r=0",
+    img: image15,
     text: "Humans are considered the most dangerous predators of giant pandas. The illegal hunting of giant pandas by humans for their fur and meat has been a great threat to the population of giant pandas",
   },
   {
     id: 2,
     title: "Wild dogs",
-    img: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/dhole-asian-wild-dog-john-olson.jpg",
+    img: image14,
     text: "Wild dogs are known for attacking the cubs of giant pandas. They are even capable of killing adult giant pandas for food.",
   },
   {
     id: 3,
     title: "Snow Leopards",
-    img: "https://th.bing.com/th/id/R.fd1b6505950390232eacada5392e8e43?rik=8spO7wl5gL%2fJYw&pid=ImgRaw&r=0",
+    img: image13,
     text: "Snow leopards are animals with great strength and power. They usually attack panda cubs with the help of their sharp teeth and sharp claws. Mostly active, snow leopards feed on their preys for several days. They are a danger to pandas mostly because they reside in the same mountainous region of central China.",
   },
   {
     id: 4,
     title: "Jackals",
-    img: "https://th.bing.com/th/id/R.15c3939d8a8f0735bf20d7e7539ca0b2?rik=eESYTQd5njW1SA&riu=http%3a%2f%2felelur.com%2fdata_images%2fmammals%2fjackal%2fjackal-06.jpg&ehk=Tjr9wyfOwoIOabUU%2fFJSwJ2iDjvD%2bHBTM1MzN9yoLOY%3d&risl=&pid=ImgRaw&r=0",
+    img: image12,
     text: "Jackals are scavengers that are well adapted for hunting because of their long legs and curved canine teeth. They usually hunt large prey such as antelope, gazelles and livestock, but are also known to hunt baby giant pandas.",
   },
   {
     id: 5,
     title: "Yellow-throated Martens",
-    img: "https://th.bing.com/th/id/R.04b0c3d76e1d6719e7c6d5486b43f410?rik=l3jY2kiNJtvsUg&riu=http%3a%2f%2ffarm5.staticflickr.com%2f4018%2f4649823387_0cb07d3257_o.jpg&ehk=tfvIWWTNYLX4zbPRdprL3OteEamTM6ww%2fBla32xRGQ4%3d&risl=1&pid=ImgRaw&r=0",
+    img: image11,
     text: "Native to Asia, yellow-throated martens are muscular and strong animals. There are many cases where panda cubs are either wounded or killed by the yellow-throated martens.",
   },
 ];
