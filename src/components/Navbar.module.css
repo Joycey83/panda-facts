@@ -40,6 +40,6 @@
 }
 
 .nav-link:hover {
-  color: var(--main-color-2);
-  border-bottom: 0.35rem solid var(--main-color-3);
+  color: var(--main-color-6);
+  border-bottom: 0.25rem solid var(--main-color-5);
 }
