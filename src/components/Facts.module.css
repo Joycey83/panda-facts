@@ -1,0 +1,16 @@
+@import "./vars.css";
+
+/* ============
+   Facts
+   ============
+ */
+
+.fact__container {
+  background-color: var(--section-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+}

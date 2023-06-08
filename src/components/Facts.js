@@ -1,14 +1,15 @@
 import Heading from "./Heading";
 import { pandaFacts } from "../data";
 import PandaFact from "./PandaFact";
+import styles from "./Facts.module.css";
 
 const Facts = () => {
   return (
     <>
-      <section className="section fact__container" id="pandaFacts">
+      <section className={`section ${styles.fact__container}`} id="pandaFacts">
         <Heading mainHeading="10 facts about" spanHeading="Giant Panda" />
 
-        <div className="grid-container">
+        <div className={styles["grid-container"]}>
           {pandaFacts.map((facts) => {
             return <PandaFact key={facts.id} {...facts} />;
           })}
