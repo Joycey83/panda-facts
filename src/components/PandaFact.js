@@ -4,9 +4,9 @@ const PandaFact = ({ img, title, text }) => {
     <>
       <div className={styles["fact__card"]}>
         <img className={styles["fact__card--img"]} src={img} alt="panda" />
-        <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{text}</p>
+        <div className={styles["card-body"]}>
+          <h5 className={styles["card-title"]}>{title}</h5>
+          <p className={styles["card-text"]}>{text}</p>
           <a href="#" className="btn">
             Learn More
           </a>

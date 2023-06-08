@@ -157,23 +157,6 @@ Panda Facts
   background-color: var(--section-color);
 }
 
-.card-body {
-  padding: 2rem;
-}
-
-.card-title {
-  margin-bottom: 0.75rem;
-}
-
-.card-text {
-  margin-bottom: 1rem;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: start;
-}
 /* 
 ===============
 HABITAT SECTION
