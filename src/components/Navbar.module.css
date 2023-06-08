@@ -36,6 +36,7 @@
 .nav-link {
   color: var(--main-color-5);
   padding: 0.5rem;
+  font-weight: 500;
   font-size: 1.2rem;
 }
 

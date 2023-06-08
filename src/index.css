@@ -156,15 +156,6 @@ Panda Facts
 .fact__container {
   background-color: var(--section-color);
 }
-.fact__card {
-  margin: 2rem 2rem;
-  width: 18rem;
-  background: #3b7a57;
-}
-.fact__card--img {
-  display: block;
-  width: 100%;
-}
 
 .card-body {
   padding: 2rem;
