@@ -1,4 +1,6 @@
 import { socialMediaLinks } from "../data";
+import Navbar from "./Navbar";
+
 import SocialLinks from "./SocialLinks";
 
 const Footer = () => {

@@ -19,8 +19,8 @@ import image18 from "./images/tourism.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#about", text: "about" },
-  { id: 2, href: "#pandaFacts", text: "services" },
-  { id: 3, href: "#photoGallery", text: "tours" },
+  { id: 2, href: "#pandaFacts", text: "Panda Facts" },
+  { id: 3, href: "#photoGallery", text: "Photo Gallery" },
 ];
 
 export const socialMediaLinks = [
